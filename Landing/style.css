@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 180vh;
+    width: 100%;
+    background-image: url(bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    padding-left: 180px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+}
+nav ul li a:hover {
+    color: rgb(39, 208, 255);
+}
+.search{
+    display: flex;
+}
+.search button{
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #0c0c0c;
+    background-color: #99d9f3;
+    transition: transform .4s;
+}
+.search button:hover{
+   transform: scale(1.2);
+
+}
+.btn:hover {
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, .15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .text {
+    position: relative;
+    max-width: 500px;
+}
+
+.content .text h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 70px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-size: 40px;
+    color: rgb(0 204 254);
+} 
+
+.content .text h1 span {
+    font-size: 50px;
+}
+
+.content .text p {
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color: #e7e3e3;
+}
+
+.btn3 {
+    background: linear-gradient(rgb(0 204 254) 2%, rgb(255, 255, 255) 100%);
+    margin-top: 60px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color:black;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, .15);
+    transition: transform .4s;
+}
+.btn3:hover{
+    transform: scale(1.2);
+    color: red;
+}
+.btn3 input:hover {
+    background: rgb(39, 208, 255);
+}
+
+.Builder {
+    display: flex;
+    height: 75%;
+    position: absolute;
+    width: 310px;
+    margin-top: 185px; 
+    justify-content: flex-end;
+
+}
+
+.Builder form {
+    box-shadow: rgb(255 0 0 / 57%) 12px 12px 2px 1px;
+    background-color: rgb(0 0 0 / 62%);
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: white;
+    border-radius: 30px;
+    margin-right: -50px;
+}
+
+label {
+    padding: 10px;
+    display: table;
+    margin-right: 21px;
+}
+
+form h2 {
+    color: #f00;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.inputBox {
+    display: inline-block;
+    padding: 10px;
+}
+
+input {
+    text-transform: uppercase;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 70px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-color:1px solid black;
+}
+ textarea {
+    border-radius: 8px;
+    border: 1px solid #1c87c9;
+    outline: none;
+}
+
+form p {
+    padding-top: 10px;
+}
+
+#Submit {
+    padding: 0px 5px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(247, 6, 6);
+
+}
+.submission input{
+    background-color: #77e4ff;;
+    color: #0c0c0c;
+    transition:transform 1s;
+}
+#Submit input:hover {
+    transform: scale(1.1);
+    background: rgb(39, 208, 255);
+}
+.footer{
+    background-color: #1b1b1b;
+    height: 50vh;
+}
+#unique p {
+    font-size: large;
+    margin: 0px 30px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color: white;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+.footer h1{
+    text-align: center;
+    color: #f00;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+.links {
+    margin: 50px;
+    text-align: center;
+}
+
+.links a {
+    color: deepskyblue;
+    padding: 5px 10px;
+}
+
+.links a:hover {
+    color: red;
+}
+.fa {
+    font-style: none;
+    display: inline-block;
+    font-size: x-large;
+    text-rendering: auto;
+}
+.copyright h4{
+    text-align: center;
+color: #f00;
+}
